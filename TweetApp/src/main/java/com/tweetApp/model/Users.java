@@ -14,12 +14,13 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Data
-
+@AllArgsConstructor
 @ToString
 @NoArgsConstructor
 @Document(collection = "Users")
 	public class Users
 	{
+	
 	
 	private String firstName;
 	private String lastName;

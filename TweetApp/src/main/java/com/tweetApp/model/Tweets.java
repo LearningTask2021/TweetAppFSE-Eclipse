@@ -24,6 +24,10 @@ import lombok.Setter;
 
 public class Tweets {
 
+	public Tweets(String tweetText) {
+		// TODO Auto-generated constructor stub
+		this.tweetText=tweetText;
+	}
 	@Id
 	private String tweetId=new ObjectId().toString();
 	private String tweetText;

@@ -31,7 +31,7 @@ public class TweetsController
 		return new ResponseEntity<>(newUser, HttpStatus.CREATED);
     	}
     	catch(Exception e) {
-    		
+    		System.out.println(e.getMessage());
             return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     	}
  
@@ -137,7 +137,7 @@ try {
          catch (Exception e)
          {
         	 System.out.println(e.getMessage());
-             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+             return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
          }
     }
     
@@ -153,7 +153,7 @@ try {
         catch (Exception e)
         {
         	System.out.println(e);
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
     
@@ -164,12 +164,12 @@ try {
 	try
 	{
 		String msg=tweetsService.deleteATweet(userId, tweetId);
-	    return new ResponseEntity<>(msg, HttpStatus.CREATED);
+	    return new ResponseEntity<>(msg, HttpStatus.OK);
 	}
 	catch (Exception e)
 	{
 		System.out.println(e);
-	    return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+	    return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
 	}
     }
     
@@ -209,6 +209,7 @@ try {
     	try
     	{
     		List<Tweets> tweets=tweetsService.likeATweet(userId,tweetId);
+    		
     	    return new ResponseEntity<>(tweets, HttpStatus.CREATED);
     	}
     	catch (Exception e)
