@@ -3,6 +3,7 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +20,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v1.0/tweets")
 public class TweetsController
@@ -59,15 +60,18 @@ public class TweetsController
   //login a registered user  
     @GetMapping("/login")
     public ResponseEntity loginUser(@RequestParam String userId,@RequestParam String password){
+    	HttpHeaders headers = new HttpHeaders();
+	    headers.add("Access-control-Allow-Orgin", "*");
     	try {
+    		
     		
     		Users newUser=tweetsService.loginUser(userId,password);
     		//System.out.println(newUser);
-    		return new ResponseEntity<>(newUser, HttpStatus.CREATED);
+    		return new ResponseEntity<>(newUser, headers,HttpStatus.CREATED);
         	}
         	catch(Exception e) {
         		
-                return new ResponseEntity<>(e.getMessage(), HttpStatus.UNAUTHORIZED);
+                return new ResponseEntity<>(e.getMessage(), headers,HttpStatus.UNAUTHORIZED);
         	}
     }
     
