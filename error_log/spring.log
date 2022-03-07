@@ -1,25 +1,26 @@
-2022-03-03 12:14:23.124  INFO 8132 --- [main] com.tweetApp.TweetApplication            : Starting TweetApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 8132 (C:\Users\User\Documents\TweetAppFSE-Eclipse\target\classes started by User in C:\Users\User\Documents\TweetAppFSE-Eclipse)
-2022-03-03 12:14:23.161  INFO 8132 --- [main] com.tweetApp.TweetApplication            : No active profile set, falling back to default profiles: default
-2022-03-03 12:14:25.372  INFO 8132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 12:14:25.374  INFO 8132 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 12:14:25.528  INFO 8132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-03 12:14:26.040  INFO 8132 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-y8z0k7-shard-0'}
-2022-03-03 12:14:26.042  INFO 8132 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-00.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 12:14:26.083  INFO 8132 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-01.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 12:14:26.085  INFO 8132 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-02.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 12:14:26.887  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:773273}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 12:14:26.889  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:775971}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 12:14:26.891  INFO 8132 --- [cluster-rtt-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:789372}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:14:26.887  INFO 8132 --- [cluster-rtt-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:775971}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 12:14:26.889  INFO 8132 --- [cluster-rtt-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:773273}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 12:14:26.890  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:789278}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:14:26.893  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-00.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=442712899, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-00.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188b39e4d25b55b57dd92b, counter=4}, lastWriteDate=Thu Mar 03 12:14:26 IST 2022, lastUpdateTimeNanos=16830429816100}
-2022-03-03 12:14:26.892  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-02.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=363315000, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-02.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188de8e41d9f95e80669aa, counter=3}, lastWriteDate=Thu Mar 03 12:14:26 IST 2022, lastUpdateTimeNanos=16830431132800}
-2022-03-03 12:14:26.894  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-01.mdzr6.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=365580901, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-01.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000b2, setVersion=7, topologyVersion=TopologyVersion{processId=62188c9a547d6ff139f5560e, counter=6}, lastWriteDate=Thu Mar 03 12:14:26 IST 2022, lastUpdateTimeNanos=16830434224300}
-2022-03-03 12:14:26.897  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff00000000000000b2 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:14:26.898  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:14:26.899  INFO 8132 --- [cluster-ClusterId{value='622063cab048ba55a3c24a86', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:14:29.164  INFO 8132 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+2022-03-04 11:25:33.312  INFO 8312 --- [main] com.tweetApp.TweetApplication            : Starting TweetApplication v0.0.1-SNAPSHOT using Java 11.0.12 on JrJavaFseCogn-1 with PID 8312 (C:\Users\User\Documents\TweetAppFSE-Eclipse\target\demo-0.0.1-SNAPSHOT-aws.jar started by User in C:\Users\User\Documents\TweetAppFSE-Eclipse)
+2022-03-04 11:25:33.328  INFO 8312 --- [main] com.tweetApp.TweetApplication            : No active profile set, falling back to default profiles: default
+2022-03-04 11:25:36.303  INFO 8312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 11:25:36.306  INFO 8312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-04 11:25:36.341  INFO 8312 --- [main] org.apache.catalina.loader.WebappLoader  : Unknown class loader [jdk.internal.loader.ClassLoaders$PlatformClassLoader@450d10cb] of class [class jdk.internal.loader.ClassLoaders$PlatformClassLoader]
+2022-03-04 11:25:36.413  INFO 8312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-04 11:25:36.884  INFO 8312 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-y8z0k7-shard-0'}
+2022-03-04 11:25:36.890  INFO 8312 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-00.mdzr6.mongodb.net:27017 to client view of cluster
+2022-03-04 11:25:36.934  INFO 8312 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-01.mdzr6.mongodb.net:27017 to client view of cluster
+2022-03-04 11:25:36.937  INFO 8312 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-02.mdzr6.mongodb.net:27017 to client view of cluster
+2022-03-04 11:25:38.530  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:34061}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 11:25:38.483  INFO 8312 --- [cluster-rtt-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:33273}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
+2022-03-04 11:25:38.533  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:34606}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
+2022-03-04 11:25:38.534  INFO 8312 --- [cluster-rtt-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:34606}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
+2022-03-04 11:25:38.542  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:33274}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
+2022-03-04 11:25:38.720  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-01.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=859118100, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-01.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-02.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62216a608fb981104acaf282, counter=3}, lastWriteDate=Fri Mar 04 11:25:38 IST 2022, lastUpdateTimeNanos=11781565269600}
+2022-03-04 11:25:38.548  INFO 8312 --- [cluster-rtt-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:34063}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 11:25:38.593  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-02.mdzr6.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=860906300, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-02.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-02.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000b3, setVersion=7, topologyVersion=TopologyVersion{processId=62216955e9f6d0228c10a8b7, counter=6}, lastWriteDate=Fri Mar 04 11:25:38 IST 2022, lastUpdateTimeNanos=11781554219300}
+2022-03-04 11:25:39.022  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff00000000000000b3 from replica set primary democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 11:25:39.028  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 11:25:39.028  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 11:25:38.678  INFO 8312 --- [cluster-ClusterId{value='6221a9d8523d2925a11b815f', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-00.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=879799700, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-00.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-02.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=6221680bc37d73d8ed04c01f, counter=4}, lastWriteDate=Fri Mar 04 11:25:38 IST 2022, lastUpdateTimeNanos=11781556707300}
+2022-03-04 11:25:41.507  INFO 8312 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
 	bootstrap.servers = [localhost:9092]
 	client.dns.lookup = use_all_dns_ips
 	client.id = 
@@ -75,65 +76,14 @@
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2022-03-03 12:14:29.273  INFO 8132 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 12:14:29.276  INFO 8132 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 12:14:29.277  INFO 8132 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646289869266
-2022-03-03 12:14:30.869  INFO 8132 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-03-03 12:14:31.342  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:33.514  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:35.772  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:38.032  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:40.619  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:43.527  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:46.675  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:49.802  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:52.806  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:55.937  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:59.191  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:14:59.286  INFO 8132 --- [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
-
-org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1646289899281, tries=1, nextAllowedTryMs=1646289899382) timed out at 1646289899282 after 1 attempt(s)
-Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
-
-2022-03-03 12:14:59.300 ERROR 8132 --- [main] o.springframework.kafka.core.KafkaAdmin  : Could not configure topics
-
-org.springframework.kafka.KafkaException: Timed out waiting to get existing topics; nested exception is java.util.concurrent.TimeoutException
-	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$5(KafkaAdmin.java:275) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1336) ~[na:na]
-	at org.springframework.kafka.core.KafkaAdmin.checkPartitions(KafkaAdmin.java:254) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:240) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:178) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:145) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:963) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.1.jar:2.5.1]
-	at com.tweetApp.TweetApplication.main(TweetApplication.java:27) ~[classes/:na]
-Caused by: java.util.concurrent.TimeoutException: null
-	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.7.1.jar:na]
-	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.7.1.jar:na]
-	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$5(KafkaAdmin.java:257) ~[spring-kafka-2.7.2.jar:2.7.2]
-	... 15 common frames omitted
-
-2022-03-03 12:15:02.324  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:15:05.251  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:15:08.498  WARN 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:15:09.310  INFO 8132 --- [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Forcing a hard I/O thread shutdown. Requests in progress will be aborted.
-2022-03-03 12:15:09.311  INFO 8132 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
-2022-03-03 12:15:09.315  INFO 8132 --- [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
-
-org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1646289929282, tries=1, nextAllowedTryMs=-9223372036854775709) timed out at 9223372036854775807 after 1 attempt(s)
-Caused by: org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
-
-2022-03-03 12:15:09.321  INFO 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
-2022-03-03 12:15:09.321  INFO 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-03-03 12:15:09.321  INFO 8132 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
-2022-03-03 12:15:09.352  INFO 8132 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+2022-03-04 11:25:41.668  INFO 8312 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
+2022-03-04 11:25:41.672  INFO 8312 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
+2022-03-04 11:25:41.673  INFO 8312 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646373341666
+2022-03-04 11:25:42.103  INFO 8312 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2022-03-04 11:25:42.114  INFO 8312 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-03-04 11:25:42.115  INFO 8312 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-03-04 11:25:42.115  INFO 8312 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-03-04 11:25:42.184  INFO 8312 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.offset.reset = earliest
@@ -212,48 +162,43 @@ Caused by: org.apache.kafka.common.errors.TimeoutException: The AdminClient thre
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2022-03-03 12:15:09.421  INFO 8132 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 12:15:09.421  INFO 8132 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 12:15:09.421  INFO 8132 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646289909421
-2022-03-03 12:15:09.455  INFO 8132 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Subscribed to topic(s): Tweets
-2022-03-03 12:15:09.591  INFO 8132 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-03-03 12:15:09.592  INFO 8132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-03-03 12:15:09.625 ERROR 8132 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2022-03-03 12:20:09.475  INFO 1176 --- [main] com.tweetApp.TweetApplication            : Starting TweetApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 1176 (C:\Users\User\Documents\TweetAppFSE-Eclipse\target\classes started by User in C:\Users\User\Documents\TweetAppFSE-Eclipse)
-2022-03-03 12:20:09.488  INFO 1176 --- [main] com.tweetApp.TweetApplication            : No active profile set, falling back to default profiles: default
-2022-03-03 12:20:13.917  INFO 1176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 12:20:13.918  INFO 1176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 12:20:14.133  INFO 1176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-03 12:20:14.678  INFO 1176 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-y8z0k7-shard-0'}
-2022-03-03 12:20:14.679  INFO 1176 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-00.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 12:20:14.726  INFO 1176 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-01.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 12:20:14.731  INFO 1176 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-02.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 12:20:16.632  INFO 1176 --- [cluster-rtt-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:776700}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.735  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:790104}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.736  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-01.mdzr6.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1029037500, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-01.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000b2, setVersion=7, topologyVersion=TopologyVersion{processId=62188c9a547d6ff139f5560e, counter=6}, lastWriteDate=Thu Mar 03 12:20:16 IST 2022, lastUpdateTimeNanos=17180278890500}
-2022-03-03 12:20:16.459  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:776698}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.753  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-00.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=778352900, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-00.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188b39e4d25b55b57dd92b, counter=4}, lastWriteDate=Thu Mar 03 12:20:16 IST 2022, lastUpdateTimeNanos=17179999917700}
-2022-03-03 12:20:16.751  INFO 1176 --- [cluster-rtt-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:790104}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.655  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:773996}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.741  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff00000000000000b2 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.804  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.805  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.778  INFO 1176 --- [cluster-rtt-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:773996}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 12:20:16.801  INFO 1176 --- [cluster-ClusterId{value='6220652677a55a3cc9ccc4da', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-02.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=955899500, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-02.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188de8e41d9f95e80669aa, counter=3}, lastWriteDate=Thu Mar 03 12:20:16 IST 2022, lastUpdateTimeNanos=17180199315400}
-2022-03-03 12:20:20.393  INFO 1176 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+2022-03-04 11:25:42.286  INFO 8312 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
+2022-03-04 11:25:42.303  INFO 8312 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
+2022-03-04 11:25:42.304  INFO 8312 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646373342286
+2022-03-04 11:25:42.371  INFO 8312 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Subscribed to topic(s): Tweets
+2022-03-04 11:25:42.548  INFO 8312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 11:25:42.583  INFO 8312 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group_id-1, groupId=group_id] Cluster ID: hxKgpf2cSGiMDdSN5zkNDg
+2022-03-04 11:25:42.585  INFO 8312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-04 11:25:42.598  INFO 8312 --- [main] org.apache.catalina.loader.WebappLoader  : Unknown class loader [jdk.internal.loader.ClassLoaders$PlatformClassLoader@450d10cb] of class [class jdk.internal.loader.ClassLoaders$PlatformClassLoader]
+2022-03-04 11:25:42.642  INFO 8312 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-03-04 11:25:44.785  INFO 8312 --- [main] com.tweetApp.TweetApplication            : Started TweetApplication in 12.323 seconds (JVM running for 16.452)
+2022-03-04 11:26:28.460  INFO 8312 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Unsubscribed all topics or patterns and assigned partitions
+2022-03-04 11:26:28.475  INFO 8312 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-03-04 11:26:28.476  INFO 8312 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-03-04 11:26:28.480  INFO 8312 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-03-04 11:26:28.498  INFO 8312 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-group_id-1 unregistered
+2022-03-04 12:21:36.978  INFO 4068 --- [main] com.tweetApp.TweetApplication            : Starting TweetApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 4068 (C:\Users\User\Documents\TweetAppFSE-Eclipse\target\classes started by User in C:\Users\User\Documents\TweetAppFSE-Eclipse)
+2022-03-04 12:21:36.981  INFO 4068 --- [main] com.tweetApp.TweetApplication            : No active profile set, falling back to default profiles: default
+2022-03-04 12:21:40.455  INFO 4068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 12:21:40.457  INFO 4068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-04 12:21:40.647  INFO 4068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-04 12:21:41.141  INFO 4068 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-y8z0k7-shard-0'}
+2022-03-04 12:21:41.143  INFO 4068 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-00.mdzr6.mongodb.net:27017 to client view of cluster
+2022-03-04 12:21:41.180  INFO 4068 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-01.mdzr6.mongodb.net:27017 to client view of cluster
+2022-03-04 12:21:41.183  INFO 4068 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-02.mdzr6.mongodb.net:27017 to client view of cluster
+2022-03-04 12:21:43.478  INFO 4068 --- [cluster-rtt-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:40911}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.485  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:40911}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.568  INFO 4068 --- [cluster-rtt-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:40017}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.493  INFO 4068 --- [cluster-rtt-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:41330}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.582  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-02.mdzr6.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=936363300, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-02.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-02.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000b3, setVersion=7, topologyVersion=TopologyVersion{processId=62216955e9f6d0228c10a8b7, counter=6}, lastWriteDate=Fri Mar 04 12:21:44 IST 2022, lastUpdateTimeNanos=15146507947900}
+2022-03-04 12:21:43.545  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:40017}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.544  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:41330}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.610  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-01.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=990149200, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-01.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-02.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62216a608fb981104acaf282, counter=3}, lastWriteDate=Fri Mar 04 12:21:44 IST 2022, lastUpdateTimeNanos=15146568143500}
+2022-03-04 12:21:43.649  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff00000000000000b3 from replica set primary democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.650  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.651  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 12:21:43.658  INFO 4068 --- [cluster-ClusterId{value='6221b6fddc47270539ec04c5', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-00.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=988971000, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-00.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-02.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=6221680bc37d73d8ed04c01f, counter=4}, lastWriteDate=Fri Mar 04 12:21:44 IST 2022, lastUpdateTimeNanos=15146567239400}
+2022-03-04 12:21:45.410  INFO 4068 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
 	bootstrap.servers = [localhost:9092]
 	client.dns.lookup = use_all_dns_ips
 	client.id = 
@@ -309,64 +254,14 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2022-03-03 12:20:20.700  INFO 1176 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 12:20:20.704  INFO 1176 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 12:20:20.704  INFO 1176 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646290220696
-2022-03-03 12:20:22.874  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:25.022  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:27.169  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:29.438  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:31.920  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:34.736  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:37.655  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:40.686  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:43.831  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:46.853  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:50.107  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:50.732  INFO 1176 --- [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
-
-org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1646290250721, tries=1, nextAllowedTryMs=1646290250827) timed out at 1646290250727 after 1 attempt(s)
-Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
-
-2022-03-03 12:20:50.734 ERROR 1176 --- [main] o.springframework.kafka.core.KafkaAdmin  : Could not configure topics
-
-org.springframework.kafka.KafkaException: Timed out waiting to get existing topics; nested exception is java.util.concurrent.TimeoutException
-	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$5(KafkaAdmin.java:275) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1336) ~[na:na]
-	at org.springframework.kafka.core.KafkaAdmin.checkPartitions(KafkaAdmin.java:254) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:240) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:178) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:145) ~[spring-kafka-2.7.2.jar:2.7.2]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:963) ~[spring-beans-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.8.jar:5.3.8]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.1.jar:2.5.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.1.jar:2.5.1]
-	at com.tweetApp.TweetApplication.main(TweetApplication.java:27) ~[classes/:na]
-Caused by: java.util.concurrent.TimeoutException: null
-	at org.apache.kafka.common.internals.KafkaFutureImpl$SingleWaiter.await(KafkaFutureImpl.java:108) ~[kafka-clients-2.7.1.jar:na]
-	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:272) ~[kafka-clients-2.7.1.jar:na]
-	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$5(KafkaAdmin.java:257) ~[spring-kafka-2.7.2.jar:2.7.2]
-	... 15 common frames omitted
-
-2022-03-03 12:20:53.195  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:56.326  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:20:59.360  WARN 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:00.737  INFO 1176 --- [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Forcing a hard I/O thread shutdown. Requests in progress will be aborted.
-2022-03-03 12:21:00.739  INFO 1176 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
-2022-03-03 12:21:00.743  INFO 1176 --- [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
-
-org.apache.kafka.common.errors.TimeoutException: Call(callName=fetchMetadata, deadlineMs=1646290280727, tries=1, nextAllowedTryMs=-9223372036854775709) timed out at 9223372036854775807 after 1 attempt(s)
-Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
-
-2022-03-03 12:21:00.751  INFO 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
-2022-03-03 12:21:00.751  INFO 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-03-03 12:21:00.751  INFO 1176 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
-2022-03-03 12:21:00.909  INFO 1176 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+2022-03-04 12:21:45.701  INFO 4068 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
+2022-03-04 12:21:45.705  INFO 4068 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
+2022-03-04 12:21:45.706  INFO 4068 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646376705698
+2022-03-04 12:21:46.198  INFO 4068 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2022-03-04 12:21:46.205  INFO 4068 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-03-04 12:21:46.206  INFO 4068 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-03-04 12:21:46.206  INFO 4068 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-03-04 12:21:46.247  INFO 4068 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.offset.reset = earliest
@@ -445,727 +340,19 @@ Caused by: org.apache.kafka.common.errors.TimeoutException: Timed out waiting to
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2022-03-03 12:21:01.155  INFO 1176 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 12:21:01.156  INFO 1176 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 12:21:01.156  INFO 1176 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646290261155
-2022-03-03 12:21:01.329  INFO 1176 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Subscribed to topic(s): Tweets
-2022-03-03 12:21:01.891  INFO 1176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 12:21:01.891  INFO 1176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 12:21:01.990  INFO 1176 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-03-03 12:21:04.164  INFO 1176 --- [main] com.tweetApp.TweetApplication            : Started TweetApplication in 55.688 seconds (JVM running for 56.626)
-2022-03-03 12:21:04.651  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:04.651  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:06.913  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:06.917  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:09.074  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:09.074  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:11.291  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:11.292  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:13.783  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:13.784  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:16.560  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:16.561  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:19.471  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:19.471  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:22.385  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:22.385  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:25.421  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 12:21:25.422  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
-2022-03-03 12:21:29.229  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Error while fetching metadata with correlation id 5 : {Tweets=LEADER_NOT_AVAILABLE}
-2022-03-03 12:21:29.231  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group_id-1, groupId=group_id] Cluster ID: CPqfGQLtRfGshgJnUGxbKQ
-2022-03-03 12:21:29.410  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Error while fetching metadata with correlation id 7 : {Tweets=LEADER_NOT_AVAILABLE}
-2022-03-03 12:21:29.599  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Error while fetching metadata with correlation id 8 : {Tweets=LEADER_NOT_AVAILABLE}
-2022-03-03 12:21:29.932  WARN 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-group_id-1, groupId=group_id] Error while fetching metadata with correlation id 10 : {Tweets=LEADER_NOT_AVAILABLE}
-2022-03-03 12:21:34.100  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Discovered group coordinator localhost:9092 (id: 2147483647 rack: null)
-2022-03-03 12:21:34.104  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] (Re-)joining group
-2022-03-03 12:21:34.146  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] (Re-)joining group
-2022-03-03 12:21:34.171  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully joined group with generation Generation{generationId=1, memberId='consumer-group_id-1-78425f81-09a2-4cca-9fcb-e0fb9125a013', protocol='range'}
-2022-03-03 12:21:34.174  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Finished assignment for group at generation 1: {consumer-group_id-1-78425f81-09a2-4cca-9fcb-e0fb9125a013=Assignment(partitions=[Tweets-0])}
-2022-03-03 12:21:34.285  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully synced group in generation Generation{generationId=1, memberId='consumer-group_id-1-78425f81-09a2-4cca-9fcb-e0fb9125a013', protocol='range'}
-2022-03-03 12:21:34.286  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Notifying assignor about the new Assignment(partitions=[Tweets-0])
-2022-03-03 12:21:34.290  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Adding newly assigned partitions: Tweets-0
-2022-03-03 12:21:34.335  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-0
-2022-03-03 12:21:34.371  INFO 1176 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 0 rack: null)], epoch=0}}.
-2022-03-03 12:22:43.661  INFO 1176 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-03-03 12:22:43.704  WARN 1176 --- [http-nio-8080-exec-9] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
-2022-03-03 12:23:05.090  WARN 1176 --- [http-nio-8080-exec-8] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
-2022-03-03 12:23:10.644  WARN 1176 --- [http-nio-8080-exec-7] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
-2022-03-03 12:23:17.667  WARN 1176 --- [http-nio-8080-exec-6] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
-2022-03-03 12:24:21.868  INFO 1176 --- [http-nio-8080-exec-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:790592}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:05:53.775  INFO 2140 --- [main] com.tweetApp.TweetApplication            : Starting TweetApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 2140 (C:\Users\User\Documents\TweetAppFSE-Eclipse\target\classes started by User in C:\Users\User\Documents\TweetAppFSE-Eclipse)
-2022-03-03 18:05:53.781  INFO 2140 --- [main] com.tweetApp.TweetApplication            : No active profile set, falling back to default profiles: default
-2022-03-03 18:06:01.058  INFO 2140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 18:06:01.060  INFO 2140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 18:06:01.413  INFO 2140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-03 18:06:02.518  INFO 2140 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-y8z0k7-shard-0'}
-2022-03-03 18:06:02.520  INFO 2140 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-00.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:06:02.594  INFO 2140 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-01.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:06:02.599  INFO 2140 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-02.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:06:03.418  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:813535}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 18:06:03.421  INFO 2140 --- [cluster-rtt-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:813535}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 18:06:03.418  INFO 2140 --- [cluster-rtt-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:830608}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:06:03.419  INFO 2140 --- [cluster-rtt-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:816330}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 18:06:03.419  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:830608}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:06:03.424  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-02.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=428687800, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-02.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188de8e41d9f95e80669aa, counter=3}, lastWriteDate=Thu Mar 03 18:06:03 IST 2022, lastUpdateTimeNanos=763328087500}
-2022-03-03 18:06:03.419  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:816330}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 18:06:03.426  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-01.mdzr6.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=426495800, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-01.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000b2, setVersion=7, topologyVersion=TopologyVersion{processId=62188c9a547d6ff139f5560e, counter=6}, lastWriteDate=Thu Mar 03 18:06:03 IST 2022, lastUpdateTimeNanos=763326254000}
-2022-03-03 18:06:03.432  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff00000000000000b2 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:06:03.432  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-00.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=427579600, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-00.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188b39e4d25b55b57dd92b, counter=4}, lastWriteDate=Thu Mar 03 18:06:03 IST 2022, lastUpdateTimeNanos=763327004300}
-2022-03-03 18:06:03.433  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:06:03.434  INFO 2140 --- [cluster-ClusterId{value='6220b6320a98c51c6b796767', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:06:08.308  INFO 2140 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
-	bootstrap.servers = [localhost:9092]
-	client.dns.lookup = use_all_dns_ips
-	client.id = 
-	connections.max.idle.ms = 300000
-	default.api.timeout.ms = 60000
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retries = 2147483647
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	socket.connection.setup.timeout.max.ms = 127000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-
-2022-03-03 18:06:08.806  INFO 2140 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 18:06:08.808  INFO 2140 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 18:06:08.809  INFO 2140 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646310968803
-2022-03-03 18:06:13.608  INFO 2140 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
-2022-03-03 18:06:13.623  INFO 2140 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
-2022-03-03 18:06:13.628  INFO 2140 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-03-03 18:06:13.629  INFO 2140 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
-2022-03-03 18:06:13.678  INFO 2140 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
-	allow.auto.create.topics = true
-	auto.commit.interval.ms = 5000
-	auto.offset.reset = earliest
-	bootstrap.servers = [localhost:9092]
-	check.crcs = true
-	client.dns.lookup = use_all_dns_ips
-	client.id = consumer-group_id-1
-	client.rack = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = false
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = group_id
-	group.instance.id = null
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	internal.throw.on.fetch.stable.offset.unsupported = false
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	socket.connection.setup.timeout.max.ms = 127000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2022-03-03 18:06:13.832  INFO 2140 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 18:06:13.832  INFO 2140 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 18:06:13.833  INFO 2140 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646310973832
-2022-03-03 18:06:13.860  INFO 2140 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Subscribed to topic(s): Tweets
-2022-03-03 18:06:13.988  INFO 2140 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-03-03 18:06:14.019  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group_id-1, groupId=group_id] Cluster ID: hxKgpf2cSGiMDdSN5zkNDg
-2022-03-03 18:06:14.074 ERROR 2140 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2022-03-03 18:06:18.265  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Discovered group coordinator localhost:9092 (id: 2147482646 rack: null)
-2022-03-03 18:06:18.270  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] (Re-)joining group
-2022-03-03 18:06:18.354  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] (Re-)joining group
-2022-03-03 18:06:18.477  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully joined group with generation Generation{generationId=1, memberId='consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94', protocol='range'}
-2022-03-03 18:06:18.483  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Finished assignment for group at generation 1: {consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94=Assignment(partitions=[Tweets-0, Tweets-1, Tweets-2])}
-2022-03-03 18:06:18.687  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully synced group in generation Generation{generationId=1, memberId='consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94', protocol='range'}
-2022-03-03 18:06:18.688  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Notifying assignor about the new Assignment(partitions=[Tweets-0, Tweets-1, Tweets-2])
-2022-03-03 18:06:18.692  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Adding newly assigned partitions: Tweets-0, Tweets-1, Tweets-2
-2022-03-03 18:06:18.778  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-0
-2022-03-03 18:06:18.779  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-1
-2022-03-03 18:06:18.780  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-2
-2022-03-03 18:06:18.912  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:06:18.914  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:06:18.914  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-2 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:11:03.828  INFO 2364 --- [main] com.tweetApp.TweetApplication            : Starting TweetApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 2364 (C:\Users\User\Documents\TweetAppFSE-Eclipse\target\classes started by User in C:\Users\User\Documents\TweetAppFSE-Eclipse)
-2022-03-03 18:11:03.839  INFO 2364 --- [main] com.tweetApp.TweetApplication            : No active profile set, falling back to default profiles: default
-2022-03-03 18:11:06.119  INFO 2364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 18:11:06.120  INFO 2364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 18:11:06.250  INFO 2364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-03 18:11:06.698  INFO 2364 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-y8z0k7-shard-0'}
-2022-03-03 18:11:06.699  INFO 2364 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-00.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:11:06.735  INFO 2364 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-01.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:11:06.738  INFO 2364 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-02.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:11:07.327  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:814101}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 18:11:07.325  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:816902}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 18:11:07.328  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:831191}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:11:07.338  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-01.mdzr6.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=266571700, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-01.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000b2, setVersion=7, topologyVersion=TopologyVersion{processId=62188c9a547d6ff139f5560e, counter=6}, lastWriteDate=Thu Mar 03 18:11:07 IST 2022, lastUpdateTimeNanos=1067238377200}
-2022-03-03 18:11:07.328  INFO 2364 --- [cluster-rtt-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:831196}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:11:07.328  INFO 2364 --- [cluster-rtt-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:816902}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 18:11:07.328  INFO 2364 --- [cluster-rtt-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:814101}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 18:11:07.334  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-02.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=271077600, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-02.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188de8e41d9f95e80669aa, counter=3}, lastWriteDate=Thu Mar 03 18:11:07 IST 2022, lastUpdateTimeNanos=1067234758000}
-2022-03-03 18:11:07.334  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-00.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=262825800, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-00.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188b39e4d25b55b57dd92b, counter=4}, lastWriteDate=Thu Mar 03 18:11:07 IST 2022, lastUpdateTimeNanos=1067231570700}
-2022-03-03 18:11:07.341  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff00000000000000b2 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:11:07.350  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:11:07.350  INFO 2364 --- [cluster-ClusterId{value='6220b76284cea14a6d1c242e', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:11:09.413  INFO 2364 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
-	bootstrap.servers = [localhost:9092]
-	client.dns.lookup = use_all_dns_ips
-	client.id = 
-	connections.max.idle.ms = 300000
-	default.api.timeout.ms = 60000
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retries = 2147483647
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	socket.connection.setup.timeout.max.ms = 127000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-
-2022-03-03 18:11:09.535  INFO 2364 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 18:11:09.537  INFO 2364 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 18:11:09.538  INFO 2364 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646311269533
-2022-03-03 18:11:10.000  INFO 2364 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
-2022-03-03 18:11:10.006  INFO 2364 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
-2022-03-03 18:11:10.006  INFO 2364 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-03-03 18:11:10.009  INFO 2364 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
-2022-03-03 18:11:10.038  INFO 2364 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
-	allow.auto.create.topics = true
-	auto.commit.interval.ms = 5000
-	auto.offset.reset = earliest
-	bootstrap.servers = [localhost:9092]
-	check.crcs = true
-	client.dns.lookup = use_all_dns_ips
-	client.id = consumer-group_id-1
-	client.rack = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = false
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = group_id
-	group.instance.id = null
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	internal.throw.on.fetch.stable.offset.unsupported = false
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	socket.connection.setup.timeout.max.ms = 127000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2022-03-03 18:11:10.089  INFO 2364 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 18:11:10.092  INFO 2364 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 18:11:10.093  INFO 2364 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646311270089
-2022-03-03 18:11:10.131  INFO 2364 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Subscribed to topic(s): Tweets
-2022-03-03 18:11:10.236  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group_id-1, groupId=group_id] Cluster ID: hxKgpf2cSGiMDdSN5zkNDg
-2022-03-03 18:11:10.237  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Discovered group coordinator localhost:9092 (id: 2147482646 rack: null)
-2022-03-03 18:11:10.241  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] (Re-)joining group
-2022-03-03 18:11:10.286  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] (Re-)joining group
-2022-03-03 18:11:10.347  INFO 2364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 18:11:10.367  INFO 2364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 18:11:10.396  INFO 2364 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-03-03 18:11:10.459  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Attempt to heartbeat failed since group is rebalancing
-2022-03-03 18:11:10.523  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Revoke previously assigned partitions Tweets-0, Tweets-1, Tweets-2
-2022-03-03 18:11:10.541  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] (Re-)joining group
-2022-03-03 18:11:10.555  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully joined group with generation Generation{generationId=2, memberId='consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94', protocol='range'}
-2022-03-03 18:11:10.556  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Finished assignment for group at generation 2: {consumer-group_id-1-5596cf53-0b04-4320-a757-2a8d44d68410=Assignment(partitions=[Tweets-2]), consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94=Assignment(partitions=[Tweets-0, Tweets-1])}
-2022-03-03 18:11:10.564  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully joined group with generation Generation{generationId=2, memberId='consumer-group_id-1-5596cf53-0b04-4320-a757-2a8d44d68410', protocol='range'}
-2022-03-03 18:11:10.582  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully synced group in generation Generation{generationId=2, memberId='consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94', protocol='range'}
-2022-03-03 18:11:10.584  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Notifying assignor about the new Assignment(partitions=[Tweets-0, Tweets-1])
-2022-03-03 18:11:10.585  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Adding newly assigned partitions: Tweets-0, Tweets-1
-2022-03-03 18:11:10.646  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-0
-2022-03-03 18:11:10.649  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-1
-2022-03-03 18:11:10.648  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully synced group in generation Generation{generationId=2, memberId='consumer-group_id-1-5596cf53-0b04-4320-a757-2a8d44d68410', protocol='range'}
-2022-03-03 18:11:10.676  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Notifying assignor about the new Assignment(partitions=[Tweets-2])
-2022-03-03 18:11:10.685  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Adding newly assigned partitions: Tweets-2
-2022-03-03 18:11:10.680  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:11:10.694  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:11:10.706  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-2
-2022-03-03 18:11:10.855  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-2 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:11:10.900  INFO 2364 --- [main] com.tweetApp.TweetApplication            : Started TweetApplication in 7.755 seconds (JVM running for 8.436)
-2022-03-03 18:13:12.630  INFO 2364 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-03-03 18:13:13.591  INFO 2364 --- [http-nio-8080-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:831388}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:13:29.498  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Revoke previously assigned partitions Tweets-2
-2022-03-03 18:13:29.500  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Member consumer-group_id-1-5596cf53-0b04-4320-a757-2a8d44d68410 sending LeaveGroup request to coordinator localhost:9092 (id: 2147482646 rack: null) due to the consumer unsubscribed from all topics
-2022-03-03 18:13:29.527  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Unsubscribed all topics or patterns and assigned partitions
-2022-03-03 18:13:29.575  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
-2022-03-03 18:13:29.576  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-03-03 18:13:29.576  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
-2022-03-03 18:13:29.589  INFO 2364 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-group_id-1 unregistered
-2022-03-03 18:13:29.663  INFO 2364 --- [SpringApplicationShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:7, serverValue:831388}] to democluster-shard-00-01.mdzr6.mongodb.net:27017 because the pool has been closed.
-2022-03-03 18:13:30.743  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Attempt to heartbeat failed since group is rebalancing
-2022-03-03 18:13:30.744  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Revoke previously assigned partitions Tweets-0, Tweets-1
-2022-03-03 18:13:30.745  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] (Re-)joining group
-2022-03-03 18:13:30.752  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully joined group with generation Generation{generationId=3, memberId='consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94', protocol='range'}
-2022-03-03 18:13:30.754  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Finished assignment for group at generation 3: {consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94=Assignment(partitions=[Tweets-0, Tweets-1, Tweets-2])}
-2022-03-03 18:13:30.766  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Successfully synced group in generation Generation{generationId=3, memberId='consumer-group_id-1-3f4f11fd-f589-42f2-be9a-7b23c1c1ef94', protocol='range'}
-2022-03-03 18:13:30.767  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Notifying assignor about the new Assignment(partitions=[Tweets-0, Tweets-1, Tweets-2])
-2022-03-03 18:13:30.768  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Adding newly assigned partitions: Tweets-0, Tweets-1, Tweets-2
-2022-03-03 18:13:30.774  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-0
-2022-03-03 18:13:30.776  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-1
-2022-03-03 18:13:30.776  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-group_id-1, groupId=group_id] Found no committed offset for partition Tweets-2
-2022-03-03 18:13:30.997  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:13:30.998  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:13:30.999  INFO 2140 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-group_id-1, groupId=group_id] Resetting offset for partition Tweets-2 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1001 rack: null)], epoch=0}}.
-2022-03-03 18:44:39.990  INFO 9544 --- [main] com.tweetApp.TweetApplication            : Starting TweetApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9544 (C:\Users\User\Documents\TweetAppFSE-Eclipse\target\classes started by User in C:\Users\User\Documents\TweetAppFSE-Eclipse)
-2022-03-03 18:44:40.022  INFO 9544 --- [main] com.tweetApp.TweetApplication            : No active profile set, falling back to default profiles: default
-2022-03-03 18:44:44.146  INFO 9544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 18:44:44.148  INFO 9544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 18:44:44.368  INFO 9544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-03 18:44:45.117  INFO 9544 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-y8z0k7-shard-0'}
-2022-03-03 18:44:45.119  INFO 9544 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-00.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:44:45.163  INFO 9544 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-01.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:44:45.167  INFO 9544 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-02.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 18:44:45.902  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:834776}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.919  INFO 9544 --- [cluster-rtt-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:817666}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.901  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:820471}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.948  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-00.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=371853600, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-00.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188b39e4d25b55b57dd92b, counter=4}, lastWriteDate=Thu Mar 03 18:44:45 IST 2022, lastUpdateTimeNanos=3085810004200}
-2022-03-03 18:44:45.920  INFO 9544 --- [cluster-rtt-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:820471}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.906  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:817666}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.902  INFO 9544 --- [cluster-rtt-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:834783}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.936  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-01.mdzr6.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=375418900, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-01.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000b2, setVersion=7, topologyVersion=TopologyVersion{processId=62188c9a547d6ff139f5560e, counter=6}, lastWriteDate=Thu Mar 03 18:44:45 IST 2022, lastUpdateTimeNanos=3085811169000}
-2022-03-03 18:44:45.965  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff00000000000000b2 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.982  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.983  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 18:44:45.962  INFO 9544 --- [cluster-ClusterId{value='6220bf459131011a6b7f7bb4', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-02.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=381480100, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-02.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188de8e41d9f95e80669aa, counter=3}, lastWriteDate=Thu Mar 03 18:44:45 IST 2022, lastUpdateTimeNanos=3085816316600}
-2022-03-03 18:44:49.053  INFO 9544 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
-	bootstrap.servers = [localhost:9092]
-	client.dns.lookup = use_all_dns_ips
-	client.id = 
-	connections.max.idle.ms = 300000
-	default.api.timeout.ms = 60000
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retries = 2147483647
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	socket.connection.setup.timeout.max.ms = 127000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-
-2022-03-03 18:44:49.298  INFO 9544 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 18:44:49.333  INFO 9544 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 18:44:49.343  INFO 9544 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646313289298
-2022-03-03 18:44:51.730  WARN 9544 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 18:44:53.874  WARN 9544 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 18:44:56.118  WARN 9544 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 18:44:58.358  WARN 9544 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 18:45:00.839  WARN 9544 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 18:45:03.749  WARN 9544 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
-2022-03-03 19:25:25.463  INFO 9416 --- [main] com.tweetApp.TweetApplication            : Starting TweetApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9416 (C:\Users\User\Documents\TweetAppFSE-Eclipse\target\classes started by User in C:\Users\User\Documents\TweetAppFSE-Eclipse)
-2022-03-03 19:25:25.481  INFO 9416 --- [main] com.tweetApp.TweetApplication            : No active profile set, falling back to default profiles: default
-2022-03-03 19:25:28.288  INFO 9416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 19:25:28.289  INFO 9416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 19:25:28.458  INFO 9416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-03 19:25:29.593  INFO 9416 --- [main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', requiredReplicaSetName='atlas-y8z0k7-shard-0'}
-2022-03-03 19:25:29.596  INFO 9416 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-00.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 19:25:29.634  INFO 9416 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-01.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 19:25:29.638  INFO 9416 --- [main] org.mongodb.driver.cluster               : Adding discovered server democluster-shard-00-02.mdzr6.mongodb.net:27017 to client view of cluster
-2022-03-03 19:25:30.671  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:821897}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 19:25:30.667  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:839016}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 19:25:30.670  INFO 9416 --- [cluster-rtt-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:824696}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 19:25:30.699  INFO 9416 --- [cluster-rtt-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:821897}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
-2022-03-03 19:25:30.700  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:824696}] to democluster-shard-00-00.mdzr6.mongodb.net:27017
-2022-03-03 19:25:30.705  INFO 9416 --- [cluster-rtt-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:839016}] to democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 19:25:31.537  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-02.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-02.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=460231600, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-02.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188de8e41d9f95e80669aa, counter=3}, lastWriteDate=Thu Mar 03 19:25:30 IST 2022, lastUpdateTimeNanos=5530581252700}
-2022-03-03 19:25:31.549  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-01.mdzr6.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=453246100, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-01.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff00000000000000b2, setVersion=7, topologyVersion=TopologyVersion{processId=62188c9a547d6ff139f5560e, counter=6}, lastWriteDate=Thu Mar 03 19:25:30 IST 2022, lastUpdateTimeNanos=5530575652500}
-2022-03-03 19:25:31.553  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-00.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=democluster-shard-00-00.mdzr6.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=489556300, setName='atlas-y8z0k7-shard-0', canonicalAddress=democluster-shard-00-00.mdzr6.mongodb.net:27017, hosts=[democluster-shard-00-00.mdzr6.mongodb.net:27017, democluster-shard-00-01.mdzr6.mongodb.net:27017, democluster-shard-00-02.mdzr6.mongodb.net:27017], passives=[], arbiters=[], primary='democluster-shard-00-01.mdzr6.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=7, topologyVersion=TopologyVersion{processId=62188b39e4d25b55b57dd92b, counter=4}, lastWriteDate=Thu Mar 03 19:25:30 IST 2022, lastUpdateTimeNanos=5530610808800}
-2022-03-03 19:25:31.592  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff00000000000000b2 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 19:25:31.599  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 7 from replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 19:25:31.599  INFO 9416 --- [cluster-ClusterId{value='6220c8d18ecb02477ca0923d', description='null'}-democluster-shard-00-01.mdzr6.mongodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary democluster-shard-00-01.mdzr6.mongodb.net:27017
-2022-03-03 19:25:34.141  INFO 9416 --- [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
-	bootstrap.servers = [localhost:9092]
-	client.dns.lookup = use_all_dns_ips
-	client.id = 
-	connections.max.idle.ms = 300000
-	default.api.timeout.ms = 60000
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retries = 2147483647
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	socket.connection.setup.timeout.max.ms = 127000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-
-2022-03-03 19:25:34.318  INFO 9416 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 19:25:34.321  INFO 9416 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 19:25:34.321  INFO 9416 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646315734316
-2022-03-03 19:25:35.213  INFO 9416 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
-2022-03-03 19:25:35.229  INFO 9416 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
-2022-03-03 19:25:35.229  INFO 9416 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-03-03 19:25:35.230  INFO 9416 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
-2022-03-03 19:25:35.255  INFO 9416 --- [main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
-	allow.auto.create.topics = true
-	auto.commit.interval.ms = 5000
-	auto.offset.reset = earliest
-	bootstrap.servers = [localhost:9092]
-	check.crcs = true
-	client.dns.lookup = use_all_dns_ips
-	client.id = consumer-group_id-1
-	client.rack = 
-	connections.max.idle.ms = 540000
-	default.api.timeout.ms = 60000
-	enable.auto.commit = false
-	exclude.internal.topics = true
-	fetch.max.bytes = 52428800
-	fetch.max.wait.ms = 500
-	fetch.min.bytes = 1
-	group.id = group_id
-	group.instance.id = null
-	heartbeat.interval.ms = 3000
-	interceptor.classes = []
-	internal.leave.group.on.close = true
-	internal.throw.on.fetch.stable.offset.unsupported = false
-	isolation.level = read_uncommitted
-	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-	max.partition.fetch.bytes = 1048576
-	max.poll.interval.ms = 300000
-	max.poll.records = 500
-	metadata.max.age.ms = 300000
-	metric.reporters = []
-	metrics.num.samples = 2
-	metrics.recording.level = INFO
-	metrics.sample.window.ms = 30000
-	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
-	receive.buffer.bytes = 65536
-	reconnect.backoff.max.ms = 1000
-	reconnect.backoff.ms = 50
-	request.timeout.ms = 30000
-	retry.backoff.ms = 100
-	sasl.client.callback.handler.class = null
-	sasl.jaas.config = null
-	sasl.kerberos.kinit.cmd = /usr/bin/kinit
-	sasl.kerberos.min.time.before.relogin = 60000
-	sasl.kerberos.service.name = null
-	sasl.kerberos.ticket.renew.jitter = 0.05
-	sasl.kerberos.ticket.renew.window.factor = 0.8
-	sasl.login.callback.handler.class = null
-	sasl.login.class = null
-	sasl.login.refresh.buffer.seconds = 300
-	sasl.login.refresh.min.period.seconds = 60
-	sasl.login.refresh.window.factor = 0.8
-	sasl.login.refresh.window.jitter = 0.05
-	sasl.mechanism = GSSAPI
-	security.protocol = PLAINTEXT
-	security.providers = null
-	send.buffer.bytes = 131072
-	session.timeout.ms = 10000
-	socket.connection.setup.timeout.max.ms = 127000
-	socket.connection.setup.timeout.ms = 10000
-	ssl.cipher.suites = null
-	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
-	ssl.endpoint.identification.algorithm = https
-	ssl.engine.factory.class = null
-	ssl.key.password = null
-	ssl.keymanager.algorithm = SunX509
-	ssl.keystore.certificate.chain = null
-	ssl.keystore.key = null
-	ssl.keystore.location = null
-	ssl.keystore.password = null
-	ssl.keystore.type = JKS
-	ssl.protocol = TLSv1.3
-	ssl.provider = null
-	ssl.secure.random.implementation = null
-	ssl.trustmanager.algorithm = PKIX
-	ssl.truststore.certificates = null
-	ssl.truststore.location = null
-	ssl.truststore.password = null
-	ssl.truststore.type = JKS
-	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
-
-2022-03-03 19:25:35.323  INFO 9416 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
-2022-03-03 19:25:35.324  INFO 9416 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
-2022-03-03 19:25:35.324  INFO 9416 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646315735323
-2022-03-03 19:25:35.365  INFO 9416 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Subscribed to topic(s): Tweets
-2022-03-03 19:25:35.507  INFO 9416 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group_id-1, groupId=group_id] Cluster ID: hxKgpf2cSGiMDdSN5zkNDg
-2022-03-03 19:25:35.584  INFO 9416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-03 19:25:35.585  INFO 9416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
-2022-03-03 19:25:35.626  INFO 9416 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2022-03-03 19:25:36.401  INFO 9416 --- [main] com.tweetApp.TweetApplication            : Started TweetApplication in 11.749 seconds (JVM running for 12.6)
-2022-03-03 19:25:50.412  INFO 9416 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Unsubscribed all topics or patterns and assigned partitions
-2022-03-03 19:25:50.419  INFO 9416 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
-2022-03-03 19:25:50.420  INFO 9416 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-03-03 19:25:50.420  INFO 9416 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
-2022-03-03 19:25:50.433  INFO 9416 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-group_id-1 unregistered
+2022-03-04 12:21:46.345  INFO 4068 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.7.1
+2022-03-04 12:21:46.346  INFO 4068 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 61dbce85d0d41457
+2022-03-04 12:21:46.348  INFO 4068 --- [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1646376706345
+2022-03-04 12:21:46.408  INFO 4068 --- [main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-group_id-1, groupId=group_id] Subscribed to topic(s): Tweets
+2022-03-04 12:21:46.606  INFO 4068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-04 12:21:46.609  INFO 4068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-03-04 12:21:46.653  INFO 4068 --- [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-03-04 12:21:46.892  INFO 4068 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-group_id-1, groupId=group_id] Cluster ID: hxKgpf2cSGiMDdSN5zkNDg
+2022-03-04 12:21:47.347  INFO 4068 --- [main] com.tweetApp.TweetApplication            : Started TweetApplication in 11.211 seconds (JVM running for 12.107)
+2022-03-04 12:22:12.182  INFO 4068 --- [http-nio-8080-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-04 12:22:12.715  INFO 4068 --- [http-nio-8080-exec-10] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:41008}] to democluster-shard-00-02.mdzr6.mongodb.net:27017
+2022-03-04 12:22:47.468  WARN 4068 --- [http-nio-8080-exec-5] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
+2022-03-04 12:23:05.179  WARN 4068 --- [http-nio-8080-exec-7] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
+2022-03-04 12:23:17.844  WARN 4068 --- [http-nio-8080-exec-4] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
+2022-03-04 12:23:42.610  WARN 4068 --- [http-nio-8080-exec-3] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
+2022-03-04 12:23:54.030  WARN 4068 --- [http-nio-8080-exec-9] wtTokenAuthorizationOncePerRequestFilter : JWT_TOKEN_DOES_NOT_START_WITH_BEARER_STRING
